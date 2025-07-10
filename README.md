@@ -9,9 +9,9 @@ Binding ClassId in AccordionItem
  ```xml
     <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SFAccordion.MainPage"
+             x:Class="SfAccordion_Sample.MainPage"
              xmlns:syncfusion="clr-namespace:Syncfusion.Maui.Accordion;assembly=Syncfusion.Maui.Expander"
-             xmlns:local="clr-namespace:SFAccordion">
+             xmlns:local="clr-namespace:SfAccordion_Sample">
 
     <ContentPage.BindingContext>
         <local:ItemInfoRepository/>
@@ -49,7 +49,7 @@ Binding ClassId in AccordionItem
 Perform operation based on ClassId
 
  ```c#
-namespace SFAccordion
+namespace SfAccordion_Sample
 {
     public class Behavior : Behavior<SfAccordion>
     {
